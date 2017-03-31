@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+	<head>
+		<title>Mazi Ad</title>
+
+  <title>Home</title>
+
+  <link rel="stylesheet" href="{% static 'css/k2.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/tmpl.default.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/media.1024.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/media.980.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/media.768.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/media.480.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/style.default.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/main/phocagallery.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/main/rating.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/custom/default.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/phocagallery.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/modal.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/ext2.artslider.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/captifyContent.css' %}" type="text/css" />
+  <link rel="stylesheet" href="{% static 'css/ext.default.css' %}" type="text/css" />
+
+<link href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css'%}" rel="stylesheet" type="text/css">
+
+
+  {% block head_css %}{% endblock %}
+
+
+  <style type="text/css">
+
+#toTop {width:100px;z-index: 10;border: 1px solid #333; 
+		background:#121212; text-align:center; 
+		padding:5px; position:fixed; 
+		bottom:0px; right:0px; 
+		cursor:pointer; display:none; 
+		color:#fff;text-transform: lowercase; 
+		font-size: 0.7em;}
+  </style>
+
+
+  <style type="text/css">
+.pg-cv-box-mod-ri {
+   height: 90px;
+   width: 50px;"
+}
+.pg-cv-box-img-mod-ri {
+   height: 50px;
+   width: 50px;"
+}
+</style>
+
+
+<style type="text/css">
+
+
+
+body
+{
+	font-family: Tahoma, Geneva, sans-serif, Arial;	font-size: 12px;	}
+
+a
+{
+	color: #666666;}
+
+a:hover,
+a.selected
+{
+	}
+
+
+/**************************************************************************************/
+/*   Forms																			  */
+
+
+input,
+button,
+select,
+textarea
+{
+	font-family: Tahoma, Geneva, sans-serif, Arial;}
+
+
+/**************************************************************************************/
+/*   Headings and Titles															  */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.item_header .item_title
+{
+    font-family: Tahoma, Geneva, sans-serif, Arial;}
+
+h1
+{
+		}
+
+h2
+{
+		}
+
+h3,
+.item_header .item_title
+{
+		}
+
+h4
+{
+			
+}
+
+h5
+{
+			
+}
+
+
+/**************************************************************************************/
+/*   Lists																			  */
+
+
+.categories-module li a,
+.archive-module li a
+{
+	color: #666666;}
+
+.categories-module li a:hover,
+.archive-module li a:hover
+{
+	}
+
+
+/**************************************************************************************/
+/*   Buttons																		  */
+
+
+a.btn,
+a.readmore,
+.btn_info,
+.btn-info,
+.btn-group button.btn,
+.mod-newsflash a.readmore,
+.btn-primary,
+.btn_primary,
+.contentpane .button
+{
+			
+
+	}
+
+a.btn:hover,
+.btn_info:hover,
+.btn-info:hover,
+.btn_info:active,
+.btn-info:active,
+.btn_info.active,
+.btn-info.active,
+.btn_info.disabled,
+.btn-info.disabled,
+.btn_info[disabled],
+.btn-info[disabled],
+.btn-primary:hover,
+.btn_primary:hover,
+.btn-primary:active,
+.btn_primary:active,
+.btn-primary.active,
+.btn_primary.active,
+.btn-primary.disabled,
+.btn_primary.disabled,
+.btn-primary[disabled],
+.btn_primary[disabled],
+.mod-newsflash a.readmore:hover,
+.contentpane .button:hover
+{
+				
+}
+
+
+/**************************************************************************************/
+/*   Logo Row		  																  */
+
+
+#header-row .moduletable.call-now
+{
+	color: #666666;}
+
+#header-row .moduletable.call-now div
+{
+    font-family: Tahoma, Geneva, sans-serif, Arial;}
+
+#header-row .logo
+{
+	float: left;
+	line-height: 60px;
+	min-width: 240px;
+}
+
+#header-row .logo,
+#header-row .logo a,
+#header-row .logo a:hover
+{
+	font-family: Tahoma, Geneva, sans-serif, Arial;	font-size: 28px;	font-style: normal;	font-weight: normal;	color: #FFFFFF;}
+
+#header-row .logo span.slogan
+{
+	left: 5px;
+	top: 0px;
+	font-family: Arial, Helvetica, sans-serif;	font-size: 14px;	font-style: normal;	font-weight: normal;	color: #EEEEEE;	
+}
+
+
+/**************************************************************************************/
+/*   Footer
+/**************************************************************************************/
+/**************************************************************************************/
+
+
+#footer-row ul.nav li a
+{
+	}
+
+#footer-row ul.nav li a:hover
+{
+	color: #666666;}
+
+#copyright-menu li a,
+#copyright-menu li.current a,
+#copyright-menu li.active a
+{
+	}
+
+#copyright-menu li a:hover
+{
+	color: #666666;}
+
+
+</style>
+<!-- js -->
+<link rel="stylesheet" href="{% static 'css/ext.asmenu.css' %}" type="text/css" />
+<link rel="stylesheet" href="{% static 'css/style.custom.css' %}" type="text/css" />
+  
+<script src="{% static 'js/mootools-core.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/mootools-more.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/core.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/caption.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/modal.js' %}" type="text/javascript"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+
+<script src="{% static 'js/jquery/jquery-noconflict.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery-migrate.min.js' %}" type="text/javascript"></script>
+
+
+
+<script src="{% static 'js/k2.js' %}" type="text/javascript"></script>
+
+
+<script src="{% static 'js/bootstrap.js' %}" type="text/javascript"></script>
+
+
+<script src="{% static 'js/jquery.isotope.min.js' %}" type="text/javascript"></script>
+
+<script src="{% static 'js/touch.gallery.js' %}" type="text/javascript"></script>
+
+<script src="{% static 'js/scripts.js' %}" type="text/javascript"></script>
+
+<script src="{% static 'js/scripts.js' %}" type="text/javascript"></script>
+
+
+<script src="{% static 'js/camera.min.js' %}" type="text/javascript"></script>
+
+
+<script src="{% static 'js/easing-v1.3.js' %}" type="text/javascript"></script>
+
+
+<script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
+
+
+<script src="{% static 'js/script.js' %}" type="text/javascript"></script>
+
+
+<script src="{% static 'js/jquery.mobilemenu.js' %}" type="text/javascript"></script>
+
+<script src="{% static 'js/jquery.hovermenu.js' %}" type="text/javascript"></script>
+
+<script src="{% static 'js/jquery.hovermenu.js' %}" type="text/javascript"></script>
+
+<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+jQuery.noConflict()
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.pg-modal-button').get(), {
+				parse: 'rel'
+			});
+		});
+		function jModalClose() {
+			SqueezeBox.close();
+		}
+jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+  </script>
+<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery(function () {
+					var scrollDiv = document.createElement("div");
+					jQuery(scrollDiv).attr("id", "toTop").html("^ Back To Top").appendTo("body");
+					jQuery(window).scroll(function () {
+						if (jQuery(this).scrollTop() != 0) {
+							jQuery("#toTop").fadeIn();
+						} else {
+							jQuery("#toTop").fadeOut();
+						}
+					});
+					jQuery("#toTop").click(function () {
+						jQuery("body,html").animate({
+							scrollTop: 0
+						},
+						800);
+					});
+				});
+			});
+		</script>
+
+
+{% block head_javascript %}{% endblock %}
+
+
+</head>
+<body class="com_content view-featured task- itemid-435 body-home-page">
+
+{% block header %}
+    <div class="wrapper">
+
+		<!-- HEADER -->    
+	    <div id="header-top-wrapper">
+            <div id="top_header">        
+                <div id="header-top-row">
+                    <div class="container">
+
+                    <div id="top-icon-menu" class="row">
+                    <div class="moduletable   span6"><div class="search">
+
+	<form action="/" method="post" class="form-inline">
+		<label for="mod-search-searchword" class="element-invisible">Search ...</label>
+
+		<input name="searchword" id="mod-search-searchword" maxlength="200"  class="inputbox search-query" type="search" size="20" placeholder="Search ..." /> 
+		<button class="button btn btn-primary" onclick="this.form.searchword.focus();">Search</button>		
+		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="435" />
+	</form>
+
+
+</div>
+</div>
+
+<div class="moduletable top-icon-menu  span6">
+	<div class="mod-menu">
+		<ul class="nav menu top-icon-menu">
+			<li class="item-563 active"><a class="top-icon" href="/" title="home" >
+
+			<img src="{% static 'images/icons/ico.home.png' %}" alt="Home" /></a>
+			</li>
+
+			<li class="item-564">
+			<a class="top-icon" href="/" title="Log In" >
+
+			<img src="{% static 'images/icons/ico.login.png' %}" alt="Log In" /></a>
+			</li><li class="item-610"><a class="top-icon" href="/" title="FAQ" >
+
+			<img src="{% static 'images/icons/ico.tool.png' %}" alt="FAQ" /></a></li></ul>
+</div>
+</div>
+                        </div>
+                                        
+                    </div>
+                </div>
+            </div>
+             
+               
+            <div id="header-row">
+                <div class="container">
+                    <div class="row-fluid">
+                        <header>
+                        	<div id="logo-container">
+                                <div id="logo" class="span4">
+                                  <a class="" href="">
+                                     <img src="{% static 'images/logo.png' %}" alt="Realty" />
+                                    </a>
+                                    <span class="slogan">
+                                                                            </span>
+                                                                
+                                </div>
+                                <div class="moduletable navigation  span8">
+
+<style type="text/css">
+
+#as-menu,
+#as-menu ul.as-menu ul
+{
+	border-radius: 0px;
+}
+
+#as-menu ul.as-menu > li > a,
+#as-menu ul.as-menu > li > span
+{
+	font-size: 13px;
+	2px;	font-family: Tahoma, Geneva, sans-serif, Arial;	color: #AAAAAA;
+}
+
+#as-menu ul.as-menu > li.active > a,
+#as-menu ul.as-menu > li.asHover > a,
+#as-menu ul.as-menu > li.current > a,
+#as-menu ul.as-menu > li.active > span,
+#as-menu ul.as-menu > li.asHover > span,
+#as-menu ul.as-menu > li.current > span,
+#as-menu ul.as-menu > li > a:hover,
+#as-menu ul.as-menu > li > span:hover,
+#as-menu ul.as-menu ul li a:hover,
+#as-menu ul.as-menu ul li span:hover,
+#as-menu ul.as-menu ul li.active > a,
+#as-menu ul.as-menu ul li.asHover > a,
+#as-menu ul.as-menu ul li.active > span,
+#as-menu ul.as-menu ul li.asHover > span
+{
+	color: #FFFFFF;
+}
+
+#as-menu ul.as-menu ul
+{
+	width: 191px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#as-menu ul.as-menu ul li a,
+#as-menu ul.as-menu ul li span
+{
+	font-size: 11px;
+	2px;	font-family: Tahoma, Geneva, sans-serif, Arial;	color: #AAAAAA;
+}
+
+#as-menu ul.as-menu li li:hover ul,
+#as-menu ul.as-menu li li.asHover ul,
+#as-menu ul.as-menu li li li:hover ul,
+#as-menu ul.as-menu li li li.asHover ul
+{
+	left: 191px;
+}
+
+
+</style>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script type="text/javascript">
+    jQuery(function(){
+        jQuery('.as-menu').mobileMenu({});
+    })
+</script>
+<!--<![endif]-->
+
+
+<div id="as-menu" class="menu-wrapper">
+	
+    <ul class="as-menu "  >
+    
+    <li class="item-435 current active deeper parent"><a  href="/" >Home</a><ul>
+
+
+    <li class="item-684">
+
+    <a  href="/" >Default Style</a>
+
+    </li>
+
+
+    <li class="item-685"><a  href="/">Royal Style</a></li>
+
+
+    <li class="item-686">
+
+    <a  href="/" >Autumn Style</a>
+
+    </li>
+
+    <li class="item-687">
+
+    <a  href="/" >Forest Style</a>
+    </li>
+
+
+    <li class="item-688"><a  href="/" >Orange Style</a>
+
+    </li>
+
+    <li class="item-689">
+
+    <a  href="/" >Black Style</a>
+    </li>
+
+
+    <li class="item-690">
+
+    <a  href="/" >Yellow Style</a>
+
+
+    </li><li class="item-691">
+
+    <a  href="/" >Teal Style</a>
+
+    </li>
+    </ul>
+    </li>
+
+    <li class="item-488 deeper parent"><a  href="" >About Us</a><ul><li class="item-493"><a  href="/" >Our Team</a></li><li class="item-659 deeper parent"><a  href="/" >Our Agents</a><ul><li class="item-660"><a  href="/" >Linda Blond</a></li><li class="item-661"><a  href="/" >Julio Pachino</a></li><li class="item-662"><a  href="/" >Ariel Priston</a></li></ul></li><li class="item-494">
+
+
+
+
+
+
+    <a  href="" >Service Provider</a></li></ul></li><li class="item-581 deeper parent"><a  href="/" >Services</a><ul><li class="item-579 deeper parent"><a  href="/" >Home For Sale</a><ul><li class="item-587"><a  href="/" >Home For Sale Lot # 1 </a></li><li class="item-588"><a  href="/" >Home For Sale Lot # 2</a></li><li class="item-589"><a  href="/" >Home For Sale Lot # 3</a></li><li class="item-654"><a  href="/">Home For Sale Lot # 4</a></li></ul></li><li class="item-590 deeper parent"><a  href="/" >Home For Rent </a><ul><li class="item-595"><a  href="" >Home For Rent # 1</a></li><li class="item-596"><a  href="" >Home For Rent # 2</a></li><li class="item-655"><a  href="" >Home For Rent # 3</a></li><li class="item-656"><a  href=""></a></li></ul></li><li class="item-582 deeper parent"><a  href="" >Garden Services</a><ul><li class="item-583"><a  href="" >Exterior and Garden # 1</a></li><li class="item-584"><a  href="" >Exterior and Garden # 2</a></li><li class="item-585"><a  href="" >Exterior and Garden # 3</a></li></ul></li><li class="item-591 deeper parent"><a  href="" >Interior Design</a><ul><li class="item-592"><a  href="/" >Interior Design # 1 </a></li><li class="item-593"><a  href="" >Interior Design # 2</a></li><li class="item-594"><a  href="" >Interior Design # 3</a></li><li class="item-657"><a  href="" >Interior Design # 4</a></li><li class="item-658"><a  href="" >Interior Design # 5</a></li></ul></li></ul></li><li class="item-580 deeper parent">
+
+
+    <a  href="" >Service Provider</a><ul><li class="item-598">
+
+
+    <a  href="" >Gallery</a></li></ul></li><li class="item-487"><a  href="" >Contacts</a></li>    </ul>
+</div>
+
+
+<script type="text/javascript">
+	jQuery(function(){
+		jQuery('ul.as-menu').asmenu({
+			hoverClass:    'asHover',         
+		    pathClass:     'overideThisToUse',
+		    pathLevels:    1,    
+		    delay:         500, 
+		    speed:         'normal',   
+		    autoArrows:    false, 
+		    dropShadows:   true, 
+		    disableHI:     false, 
+		    onInit:        function(){},
+		    onBeforeShow:  function(){},
+		    onShow:        function(){},
+		    onHide:        function(){}
+		});
+	});
+</script></div>
+                            </div>
+                            
+                        </header>
+                        
+                    </div>
+                                            <div id="breadcrumbs" class="row-fluid">
+                            <div class="moduletable   span12">
+<ul class="breadcrumb ">
+<span class="showHere">You are here: </span><li><span>Home</span><li></ul>
+</div>
+                        </div>
+                                    </div>
+            </div>
+        	
+                     
+ {% endblock %}
+  {% block maincontent %}
+
+
+
+  {% endblock  %}
+
+
+
+
+
+
+
+
+
+
+
+
+{% block footer %}
+
+<!-- FOOTER -->
+     <div id="footer">
+        <div id="footer-row-1">
+        <div class="container">
+            <div class="row">
+               <div class="moduletable   span6">
+
+               <h3 class="module_title ">Latest Interior Design</h3>
+
+    <div id ="phocagallery-module-ri" style="text-align:center; margin: 0 auto;">
+
+
+
+    <div class="mosaic" style="float:left;padding:4px;width:50px">
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+<div style="clear:both"></div></div>
+
+
+
+<div class="moduletable   span3"><h3 class="module_title ">Our Partners</h3>
+
+<div class="mod-custom mod-custom__"  >
+	<p><a href="#">Kitchen Solutions</a><br /> <a href="#">Bathroom Renovations</a><br /> <a href="#">Living Room Designers</a><br /> <a href="#">Basement Builders</a><br /> <a href="#">Interior Designing</a><br /> <a href="#">Home Styling</a></p></div>
+</div><div class="moduletable   span3"><h3 class="module_title align-right">Contact Us</h3>
+
+<div class="mod-custom mod-custom__"  >
+	<ul class="address">
+<li class="icon-home">  17600 Yonge St, Toronto, Canada</li>
+<li class="icon-phone">  +1234567899</li>
+<li class="icon-printer">  +123456788</li>
+<li class="icon-skype">  Your Skype Name</li>
+<li class="icon-mail">  <span id="cloak80903">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+ //<!--
+ document.getElementById('cloak80903').innerHTML = '';
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy80903 = '&#101;m&#97;&#105;l' + '&#64;';
+ addy80903 = addy80903 + '&#97;st&#101;mpl&#97;t&#101;s' + '&#46;' + 'c&#111;m';
+ document.getElementById('cloak80903').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy80903 + '\'>' +addy80903+'<\/a>';
+ //-->
+ </script></li>
+<li class="icon-laptop">  www.sahyadri-infotech.com</li>
+</ul></div>
+</div>
+                        
+                        
+                                             </div>
+                 </div>
+            </div>   
+            <div id="footer-row-2">
+                  <div class="container">
+                  	  <div class="row">
+                                                
+                        
+                            <div class="moduletable   span9"><h3 class="module_title ">Note</h3>
+
+<div class="mod-custom mod-custom__"  >
+	<p>Our Design Studio offer quality Joomla! Templates. All Joomla! templates are pre-designed websites and can be used as a starting point of your own website. All you need to do is add your content, and you are ready to start your own website</p></div>
+</div><div class="moduletable social  span3"><h3 class="module_title align-right">Follow Us</h3><div class="mod-menu">
+	<ul class="nav menu ">
+	<li class="item-625"><a class="facebook" href="http://www.facebook.com" target="_blank" title="Facebook" >Facebook</a></li><li class="item-626"><a class="in" href="http://www.linkedin.com" target="_blank" title="Linked In" >Linked In</a></li><li class="item-627"><a class="twitter" href="http://www.twitter.com" target="_blank" title="Twitter" >Twitter</a></li><li class="item-628"><a class="myspace" href="http://www.myspace.com" target="_blank" title="Myspace" >Myspace</a></li><li class="item-629"><a class="youtube" href="http://www.youtube.com" target="_blank" title="Youtube" >Youtube</a></li></ul>
+</div>
+</div>
+                        
+                        
+                                             </div>
+                 </div>
+            </div> 
+
+                            
+            <div id="copyright-row">
+                <div class="container">
+                    <div id="trademark">
+                        Copyright &copy; 2017 Realty                    </div>
+                    <div id="copyright-menu" class="row">
+                        <div class="mod-menu">
+	<ul class="nav menu ">
+	<li class="item-502"><a href="" >Terms of Use</a></li><li class="item-503"><a href="" >Privacy Policy</a></li></ul>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    
+    </div>
+	<!-- END OF FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->  
+
+
+
+    {% endblock %}
+
+			<!-- footer -->
+
+      {% block js %}{% endblock  %}
+	</body>
+</html>
+

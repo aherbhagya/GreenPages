@@ -1,0 +1,352 @@
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Design for a width of 768px (Landscape phone to portrait tablet)
+/*
+/***************************************************************************************/
+
+@media (max-width: 767px)
+{
+
+	body
+	{
+		padding: 0 !important;
+	}
+	
+	.body-home-page #custom-content-wrapper
+	{
+		top: 0 !important;
+	}
+	
+	.container
+	{
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+	
+	.wrapper
+	{
+		margin: 0;
+	}
+	
+	#push
+	{
+		display: none;
+	}
+
+
+	[class*="span"], 
+	.row-fluid [class*="span"]
+	{
+		margin-bottom: 0;
+		overflow: visible;
+	}
+
+	.mod-menu__social
+	{
+		margin-right: 80px;
+	}
+	
+	#header-row #logo
+	{
+		margin-bottom: 0;	
+	}
+	
+	
+	
+	#header-row .moduletable.navigation
+	{
+		width: 99.5%;
+		margin: 0 auto 0px;
+		clear: both;
+	}
+	
+	#slider-row .moduletable.slider,
+	#slider-row .moduletable.captify
+	{
+		overflow: hidden;
+		padding: 5px;
+		margin: 0;
+	}
+	
+	#slider-row .ccItem
+	{
+		width: 32.6% !important;
+		height: auto;
+	}
+	
+	
+	#slider-row .viewport
+	{
+		width: 100% !important;
+		height: 100%;
+	}
+	
+	#slider-row .viewport a span, 
+	#slider-row img.captify
+	{
+		width: 100% !important;
+		
+	}
+	
+	
+	
+	.slide_title
+	{
+		display: none !important;
+	}	
+	
+	.camera_caption,
+	#camera-slideshow .camera_caption p
+	{
+		display: none !important;
+	}
+	
+	.camera_caption a.readmore
+	{
+		right: inherit;
+	}
+	
+	#header-row .select-menu 
+	{
+		min-width: 436px !important;
+	}
+		
+	#featured-row .moduletable.span3
+	{
+		margin-left: 6px !important;	
+	}
+		
+	.mod-newsflash-adv__links .item__module
+	{
+		width: 48%;
+		margin: 0 1% 20px;
+		float: left;
+	}
+		
+	.page-blog .items-row.cols-3 .item_img.img-intro 
+	{
+		width: 98.5%;
+	}
+	
+	.page-blog .items-row .span6 .item
+	{
+		border-bottom: 1px solid #D4D4D4;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+		overflow: hidden;
+	}
+	
+	.page-blog .items-row.cols-2	
+	{
+		border-bottom: none;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		overflow: hidden;
+	}	
+	
+	.page-category__clients .item
+	{
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	
+	.page-category__clients .item_img
+	{
+		float: left;
+		margin-right: 20px;
+		clear: none !important;
+	}
+	
+	.page-featured .items-row .item__featured
+	{
+		margin-bottom: 30px !important;
+	}
+		
+	a.btn, a.readmore, 
+	.btn_info, 
+	.btn-info, 
+	.btn-group button.btn, 
+	.mod-newsflash a.readmore, 
+	.btn-primary, 
+	.btn_primary, 
+	.contentpane .button
+	{
+		padding: 6px 30px 6px 15px;	
+	}
+			
+	.item-image.blog-image
+	{
+		float: none;
+		margin: 0 0 20px 0;
+	}
+
+	.img-full__left.span5
+	{
+		width: 50%;
+	}
+		
+	.row-fluid [class*="itemSpan"] 
+	{
+		display: block;
+		float: none;
+		margin-left: 0;
+		width: auto;
+	}
+	
+	.span9 .row-fluid [class*="span"] .img-intro__none,
+	.span9 .row-fluid [class*="span"] .img-full__none,
+	.span6 .row-fluid [class*="span"] .img-intro__none,
+	.span6 .row-fluid [class*="span"] .img-full__none
+	{
+		width: 98.5%;	
+	}	
+
+	.page-item
+	{
+		padding-bottom: 0px;
+	}
+	
+	.page-gallery .item_img.img-intro
+	{
+		float: left;
+		margin: 0 20px 20px 0;
+	}
+	
+	.contact_form
+	{
+		width: 50%;
+	}
+	
+	.contact_details
+	{
+		margin-bottom: 20px;
+	}
+	
+	.contact_details .span6
+	{
+		width: 50%;
+		float: left;
+	}
+	
+	.mod-search__aside .mod-search_searchword
+	{
+		width: 50%;
+	}
+	
+	.mod-login__aside .mod-login_username,
+	.mod-login__aside .mod-login_passwd
+	{
+		width: 50%;
+	}
+
+	#aside-left aside
+	{
+		margin-right: 0;
+	}
+	
+	#aside-right aside
+	{
+		margin-left: 0;
+	}
+	
+	aside
+	{
+		margin-top: 0px;
+	}
+	
+	aside .mod-search button.btn.btn-search 
+	{
+		margin-top: 0px;
+	}
+	
+	#footer
+	{
+		height: auto;
+	}
+	
+	#footer p
+	{
+		margin-bottom: 0;
+	}
+	
+	.mod-footer
+	{
+		position: relative;
+		top: -48px;
+	}
+	
+	.footer-row-1 .span3 .item_img,
+	.footer-row-1 .span4 .item_img,
+	.footer-row-1 .span3 img,
+	.footer-row-1 .span4 img	
+	{
+		width: auto;	
+	}
+	
+	
+	
+	.camera_pag
+	{
+	}
+	
+	.item_img img, .category_img img, .item_fulltext img, .random-image img, aside .img-intro__left img, aside .img-intro__right img
+	{
+		width: 100% !important;
+	}
+	
+	#as-menu
+	{
+		min-height: 30px !important;
+	}
+	
+	div.subCategoryContainer
+	{
+		width: 50% !important;
+	}
+	
+	div.itemImageBlock,
+	.k2_general_information.left,
+	.k2_general_information.right
+	{
+		width: 100% !important;
+	}
+	
+	#k2Container div.latestItemsContainer
+	{
+		width: 100% !important;
+	}
+	
+	#back-top
+	{
+		display: none;
+	}	
+	
+	
+	
+/****************************************************************************/
+/*
+/*         Content Wrapper Custom Classes
+/*
+/****************************************************************************/
+
+
+	.body-home-page .position-top
+	{
+		margin-top: 30px !important;
+	}
+	
+
+/**************************************************************************/
+/*           Module News Show Pro GK4                                     */
+
+.nspArt
+	{
+		width: 100% !important;
+		padding: 20px 20px 0 !important;
+	} 
+	
+}

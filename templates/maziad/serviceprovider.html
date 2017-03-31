@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load thumbnail %}
+{% load thumbnail %}
+
+{% block banner %}
+
+{% endblock %}
+{% block maincontent  %}
+
+<div id="custom-content-wrapper">
+  <div id="featured-row">
+    <div class="container">
+      <div class="row">
+      {% for obj in serviceprovider %}
+        <div class="moduletable position-top  span3">
+          <div class="mod-newsflash mod-newsflash__position-top">
+
+            <div class="item">
+
+            <div class="img-intro-none">      
+                <a href="/">      
+                  <img src="{{MEDIA_URL}}{{ obj.image.url}}" alt=""/>      
+                </a>
+            </div>
+            </div>
+               <center><h2>{{ obj.company_name }}</h2></center>
+                    <p>{{ obj.description|truncatewords:"50" }}</p>
+
+                <center><a class="readmore" href="{% url "serviceprovider-details" obj.id %}">Read more ...</a></center>
+                </div>   
+        </div>
+      </div>
+<div class="moduletable position-top  span3">
+<div class="mod-newsflash mod-newsflash__position-top">
+<div class="item">
+
+      {% endfor %}
+                </div>
+            </div>
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+{% endblock  %}

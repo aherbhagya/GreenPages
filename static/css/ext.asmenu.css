@@ -1,0 +1,133 @@
+
+/**************************************************************************************/
+/*
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+#as-menu 
+{
+    background: none;
+	min-height: 40px;
+}
+
+#as-menu ul.as-menu > li a,
+#as-menu ul.as-menu > li > span
+{
+	margin: 0px;
+	padding: 0px 5px;
+	display: block;
+	font-weight: normal;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+#as-menu ul.as-menu > li a:hover
+{
+	background: none !important;	
+}
+
+#as-menu ul.as-menu > li.firstItem, #as-menu ul.as-menu > li:first-child,
+#as-menu ul.as-menu > li
+{
+	background-color: #333333;
+    border: 1px solid #666666;
+}
+
+
+
+#as-menu ul.as-menu > li,
+#as-menu ul.as-menu > li:hover
+{
+	
+	width: auto;
+	margin: 0px 3px;
+	padding: 30px 20px;
+	background-image: none;
+}
+
+#as-menu ul.as-menu > li.lastItem
+{
+}
+
+#as-menu ul.as-menu > li:first-child
+{
+	margin-left: 0px;	
+}
+
+#as-menu ul.as-menu > li.active > a,
+#as-menu ul.as-menu > li.asHover > a,
+#as-menu ul.as-menu > li.current > a,
+#as-menu ul.as-menu > li > a:hover,
+#as-menu ul.as-menu > li > span:hover
+{
+	
+}
+
+#as-menu ul.as-menu > li.deeper > a:after
+{
+	top: -2px;	
+	content: none;
+}
+
+#as-menu ul.as-menu > li:hover,
+#as-menu ul.as-menu > li.active,
+#as-menu ul.as-menu > li.asHover,
+#as-menu ul.as-menu > li.current,
+#as-menu ul.as-menu > li.active > span,
+#as-menu ul.as-menu > li.asHover > span,
+#as-menu ul.as-menu > li.current > span
+{
+	
+	background-color: #000;
+}
+
+#as-menu ul.as-menu li:hover ul,
+#as-menu ul.as-menu li.asHover ul
+{
+	left: 0;
+	top: 80px;
+	z-index: 100;
+	border-radius: 0;
+	opacity: 0.9;	
+}
+
+#as-menu ul.as-menu ul
+{
+	background-color: #000 ;
+	background-image: none !important;
+	padding: 15px 0;
+}
+
+#as-menu ul.as-menu ul li
+{
+	margin: 1px 2px;
+	width: 97%;
+}
+
+#as-menu ul.as-menu ul li a,
+#as-menu ul.as-menu ul li span
+{
+	color: #999 !important;
+	background-image: none !important;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+#as-menu ul.as-menu ul li a:hover,
+#as-menu ul.as-menu ul li span:hover,
+#as-menu ul.as-menu ul li.active > a,
+#as-menu ul.as-menu ul li.asHover > a,
+#as-menu ul.as-menu ul li.active > span,
+#as-menu ul.as-menu ul li.asHover > span
+{
+	color: #FFFFFF !important;
+}
+
+#as-menu ul.as-menu ul ul
+{
+	left: 189px !important;
+	top: -3px !important;
+}

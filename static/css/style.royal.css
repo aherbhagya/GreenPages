@@ -1,0 +1,834 @@
+/**************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+
+body
+{
+	
+	color: #626262;
+}
+
+a
+{
+	
+}
+
+a:hover,
+a.selected
+{
+	color: #626262;
+}
+
+hr
+{
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #ffffff;
+}
+
+blockquote
+{
+	
+}
+
+blockquote small
+{
+	color: #999999;
+}
+
+blockquote.pull-right
+{
+	border-right: 5px solid #eeeeee;
+}
+
+
+
+
+/**************************************************************************************/
+/*   Forms																			  */
+
+
+legend
+{
+	color: #333333;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+legend small
+{
+	color: #999999;
+}
+
+textarea.invalid
+{
+	border: 1px solid #d6610b;
+}
+
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input
+{
+	color: #999999;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input
+{
+	background-color: #F5F5F5;
+	border: 1px solid #d4d4d4;
+	-webkit-box-shadow: 0px 1px 0px #CCCCC;
+	-moz-box-shadow: 0px 1px 0px #CCCCC;
+	box-shadow: 0px 1px 0px #CCCCC;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus
+{
+	border-color: #1E3253;
+}
+
+select
+{
+	border: 1px solid #bbb;
+	background-color: #ffffff;
+}
+
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus
+{
+	outline: thin dotted #333;
+}
+
+.label-info,
+.badge-info
+{
+	background-color: #000;
+}
+
+
+/**************************************************************************************/
+/*   Headings and Titles															  */
+
+
+h1, h2, h3, h4, h5, .item_header .item_title
+{
+	color: #333;
+}
+
+h1
+{
+	font-size: 22px;
+	line-height: 28px;
+}
+
+h2
+{
+	font-size: 20px;
+	line-height: 26px;
+}
+
+h3
+{
+	font-size: 18px;
+	line-height: 26px;
+}
+
+h4
+{
+	font-size: 18px;
+}
+
+h5
+{
+	font-size: 12px;
+	color: #1E3253;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small
+{
+	color: #333;
+}
+
+
+
+.item_header .item_title,
+.category_title h2,
+#k2Container .itemFullText h4,
+.itemVideoBlock h3,
+#content-row-5 h3.module_title
+{
+	border-bottom: 1px solid #d4d4d4;	
+}
+
+.page-header
+{
+	border-bottom: 1px solid #eeeeee;
+}
+
+
+/**************************************************************************************/
+/*   Lists																			  */
+
+
+.categories-module li,
+.archive-module li
+{
+	background: url('../images/styles/default/li.style.png') left 11px no-repeat;
+}
+
+.categories-module li a,
+.archive-module li a
+{
+	color: #626262;
+}
+
+.categories-module li a:hover,
+.archive-module li a:hover
+{
+	color: #F93;
+}
+
+
+
+/**************************************************************************************/
+/*   Buttons																		  */
+
+
+a.btn,
+a.readmore,
+.btn_info,
+.btn-info,
+.btn-group button.btn,
+.mod-newsflash a.readmore,
+.btn-primary,
+.btn_primary,
+.contentpane .button,
+#filter a.active,
+div.itemCommentsForm form input#submitCommentButton,
+#k2Container .purchase a, 
+.item-page .purchase a, 
+.purchase a,
+.k2ReadMore,
+div.k2ItemsBlock ul li a.moduleItemReadMore
+{
+	color: #ffffff !important;
+	background-color:  #1E3253;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1E3253), to(#576B8C)) !important; /* Saf4+, Chrome */
+	background-image:  -webkit-linear-gradient(top, #1E3253, #576B8C) !important; /* Chrome 10+, Saf5.1+ */
+	background-image:  -moz-linear-gradient(top, #1E3253, #576B8C) !important; /* FF3.6+ */
+	background-image:  -ms-linear-gradient(top, #1E3253, #576B8C) !important; /* IE10 */
+	background-image: -o-linear-gradient(top, #1E3253, #576B8C) !important; /* Opera 11.10+ */
+	background-image:  linear-gradient(top, #1E3253, #576B8C) !important; /* W3C */	
+}
+
+
+
+a.btn:hover,
+.btn_info:hover,
+.btn-info:hover,
+.btn_info:active,
+.btn-info:active,
+.btn_info.active,
+.btn-info.active,
+.btn_info.disabled,
+.btn-info.disabled,
+.btn_info[disabled],
+.btn-info[disabled],
+.btn-primary:hover,
+.btn_primary:hover,
+.btn-primary:active,
+.btn_primary:active,
+.btn-primary.active,
+.btn_primary.active,
+.btn-primary.disabled,
+.btn_primary.disabled,
+.btn-primary[disabled],
+.btn_primary[disabled],
+.mod-newsflash a.readmore:hover,
+a.readmore:hover,
+.contentpane .button:hover,
+div.itemCommentsForm form input#submitCommentButton:hover,
+#k2Container .purchase a:hover, .item-page .purchase a:hover, .purchase a:hover,
+.k2ReadMore:hover,
+div.k2ItemsBlock ul li a.moduleItemReadMore:hover
+{
+	background-color: #1E3253;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#576B8C), to(#1E3253)) !important; /* Saf4+, Chrome */
+	background-image:  -webkit-linear-gradient(top, #576B8C, #1E3253) !important; /* Chrome 10+, Saf5.1+ */
+	background-image:  -moz-linear-gradient(top, #576B8C, #1E3253) !important; /* FF3.6+ */
+	background-image:  -ms-linear-gradient(top, #576B8C, #1E3253) !important; /* IE10 */
+	background-image: -o-linear-gradient(top, #576B8C, #1E3253) !important; /* Opera 11.10+ */
+	background-image:  linear-gradient(top, #576B8C, #1E3253) !important; /* W3C */
+}
+
+
+
+/**************************************************************************************/
+/*   Pagination																		  */
+
+
+.pagination ul li .pagenav
+{
+	color: #555555;
+}
+
+.pagination ul li span.pagenav
+{
+	color: #555555;
+}
+
+.pagination ul li a.pagenav
+{
+	color: #1E3253;
+}
+
+.pagination ul li a.pagenav:hover
+{
+	color: #626262;
+}
+
+.pagination ul li.num span.pagenav
+{
+	color: #626262;
+}
+
+
+
+
+/**************************************************************************************/
+/*   BlockNumbers																	  */
+
+
+span.blocknumber  
+{
+    background-color: #1E3253;
+    color: #FFFFFF;	
+}
+
+#footer span.blocknumber  
+{
+    background-color: #1E3253;
+    color: #FFFFFF;	
+}
+
+span.blocktitle
+{
+	color: #000;
+}
+
+/**************************************************************************************/
+/*   Toggling																		  */
+
+
+.toggle_content
+{
+    background-color: #FDFDFD;
+    border: 1px solid #DEDEDE;
+    color: #121212;	
+}
+
+
+/**************************************************************************************/
+/*   Newsflash																		  */
+
+
+.mod-newsflash-adv__links .item_content
+{
+	background-color: #e9e9e9;
+}
+
+.mod-newsflash-adv__links .item_content ul li a,
+.mod-newsflash-adv__links.support .item_introtext
+{
+	color: #7F7F7F;
+}
+
+.mod-newsflash-adv__links .item_content ul li a:hover
+{
+	color: #000;
+}
+
+.mod-newsflash-adv__links a.readmore:hover
+{
+	color: #1E3253;
+}
+
+
+/**************************************************************************************/
+/*   Back to Top																	  */
+
+
+#back-top a
+{
+	color: #626262;
+}
+
+#back-top a:hover
+{
+	color: #626262;
+}
+
+#back-top span
+{
+	background-color: transparent;
+}
+
+
+/**************************************************************************************/
+/*   Gallery																		  */
+
+
+
+
+.page-gallery a.zoom span.zoom-bg,
+.page-item__gallery a.zoom span.zoom-bg
+{
+	background-color: #000000;
+}
+
+#galleryOverlay
+{
+	background-image: url(../images/bg.gallery.png);
+}
+
+.well a:hover
+{
+	color: #1E3253;	
+}
+
+/**************************************************************************************/
+/*   Testimonials																	  */
+
+
+.blockquote
+{
+	background-image: url('../images/styles/default/blockquote.png');
+}
+
+
+/**************************************************************************************/
+/*   General
+/**************************************************************************************/
+/**************************************************************************************/
+
+
+.muted
+{
+	color: #000;
+}
+
+
+/**************************************************************************************/
+/*   Header
+/**************************************************************************************/
+/**************************************************************************************/
+
+#top_header
+{			
+	color: #333;	
+}
+
+
+/**************************************************************************************/
+/*   Header Row		  																  */
+
+#header-row #logo-container
+{
+	background-color: #1E3253;
+}
+
+
+#header-row .container
+{
+}
+
+#header-row .btn-search
+{
+	background-color: #FFFFFF !important;
+}
+
+#header-row .moduletable.call-now
+{
+	color: #F3F3F3;
+}
+
+
+
+#header-row .moduletable.call-now span
+{
+	color: #333333;
+}
+
+#logo span.slogan
+{
+	color: #333333;
+}
+
+
+
+
+/**************************************************************************************/
+/*   Search Row	  																  	  */
+
+#as-menu ul.as-menu ul
+{
+	background-color: #1E3253 !important;
+}
+
+
+/**************************************************************************************/
+/*   Search Row	  																  */
+
+#search-container
+{
+	background-color: #000;
+	border: 1px solid #666666;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#222), to(#000)) !important; /* Saf4+, Chrome */
+	background-image:  -webkit-linear-gradient(top, #222, #000) !important; /* Chrome 10+, Saf5.1+ */
+	background-image:  -moz-linear-gradient(top, #222, #000) !important; /* FF3.6+ */
+	background-image:  -ms-linear-gradient(top, #222, #000) !important; /* IE10 */
+	background-image: -o-linear-gradient(top, #222, #000) !important; /* Opera 11.10+ */
+	background-image:  linear-gradient(top, #222, #000) !important; /* W3C */	
+}
+
+
+/**************************************************************************************/
+/*   Slider Row		  																  */
+
+
+.slide_title
+{
+    color: #626262;;
+}
+
+.camera_caption a.readmore
+{
+}
+
+.slide_title a
+{
+    color: #626262;
+}
+
+.slide_title a:hover
+{
+    color: #000;
+}
+
+.slide_title .item_title_part0 
+{
+    color: #000;
+}
+
+
+.camera_caption a.readmore
+{
+	background-color: #000;
+	background-image: -moz-linear-gradient(top, #000, #000);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#000));
+	background-image: -webkit-linear-gradient(top, #000, #000);
+	background-image: -o-linear-gradient(top, #000, #000);
+	background-image: linear-gradient(to bottom, #000, #000);
+ 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffFD712D', endColorstr='#ff74B690', GradientType=0);
+}
+
+.camera_caption a.readmore:hover
+{
+	background-image: -moz-linear-gradient(top, #000, #000);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#000));
+	background-image: -webkit-linear-gradient(top, #000, #000);
+	background-image: -o-linear-gradient(top, #000, #000);
+	background-image: linear-gradient(to bottom, #000, #000);
+ 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff74B690', endColorstr='#ff74B690', GradientType=0);
+}
+
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent, 
+.camera_wrap .camera_pag .camera_pag_ul li:hover
+{
+	background-color: #1E3253;
+}
+
+.camera_wrap .camera_pag .camera_pag_ul li
+{
+	background-color: #1E3253;
+}
+
+
+/**************************************************************************************/
+/*   Breadcrumb Row		  															  */
+
+
+
+
+#breadcrumbs-row .moduletable h2
+{
+}
+
+#breadcrumbs-row .moduletable .breadcrumb
+{
+}
+
+
+/**************************************************************************************/
+/*   Featured Row		  															  */
+
+
+#featured-row .module_title
+{
+	background-color: transparent;
+	border-bottom: 1px solid #CCCCCC;
+	background-image: none;
+}
+
+#featured-row .mod-newsflash .item ul li a
+{
+	color: #7f7f7f;
+}
+
+#featured-row .mod-newsflash .item ul li a:hover
+{
+	color: #1E3253;
+}
+
+
+
+/**************************************************************************************/
+/*   Content
+/**************************************************************************************/
+/**************************************************************************************/
+
+
+.page-featured .item__featured
+{
+    border-bottom: 1px dotted #D4D4D4;
+}
+
+.page-featured .items-leading .item__featured,
+.page-featured .items-row:last-child .item__featured
+{
+	border-bottom: none;
+}
+
+.page-blog .category_desc p,
+.page-category .category_desc p,
+.page-category .items-row
+{
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.item_info_dl dd
+{
+	border-right: 1px solid #B3B3B3;
+}
+
+
+/**************************************************************************************/
+/*   Blog Pages																		  */
+
+.page-blog .items-leading,
+.page-blog .items-row
+{
+	border-bottom: 1px solid #D4D4D4;
+}
+
+
+/**************************************************************************************/
+/*   Archive Page																	  */
+
+
+.page-archive .alert-info
+{
+	background-color: #eeeeee;
+	border: 1px solid #eeeeee;
+}
+
+
+/**************************************************************************************/
+/*   Contacts Page																	  */
+
+
+#contact_map
+{
+	border: 1px solid #cbcbcb;
+}
+
+
+/**************************************************************************************/
+/*   Sidebars
+/**************************************************************************************/
+/**************************************************************************************/
+
+aside .moduletable
+{
+	background-color: #eee;
+	border: 1px solid #ddd;
+}
+
+
+
+#aside-row-2-left h2,
+#aside-row-2-left .module_title
+{
+	border: none;
+}
+
+#aside-row-2-left .moduletable
+{
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/bg.box.png");
+    background-repeat: repeat;
+    border: 1px solid #D4D4D4;
+}
+
+.mod-newsflash .item
+{
+	border-bottom: 1px solid #d4d4d4;
+}
+
+
+/**************************************************************************************/
+/*   Featured Row		  															  */
+
+
+#content-row-4 .mod-newsflash .item:hover
+{
+	background-color: #EFEFEF;
+}
+
+
+#content-row-4 .mod-newsflash .item ul li a
+{
+	color: #7f7f7f;
+}
+
+#content-row-4 .mod-newsflash .item ul li a:hover
+{
+	color: #1E3253;
+}
+
+
+
+/*********************************************************************************/
+/*              K2 Component                                                     */
+
+.itemImage img, 
+.catItemImage img, 
+.tagItemImage img, 
+.userItemImage img, 
+.itemIntroText img, 
+.catItemIntroText img,
+div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img 
+{
+    border: 0px solid #BBBBBB !important;
+}
+
+div.k2Pagination  ul li.pagination-start span.pagenav,
+div.k2Pagination  ul li.pagination-prev span.pagenav
+{
+	color: #555555;
+	background: #F0F0F0;
+}
+
+div.k2Pagination  ul li span.pagenav
+{
+	color: #fff;
+	background-color: #1E3253;
+}
+
+div.k2Pagination  ul li a.pagenav
+{
+	color: #555;
+	background: #F0F0F0;
+}
+
+
+div.k2Pagination  ul li a.pagenav:hover
+{
+	color: #fff;
+	background-color: #1E3253;
+}
+
+div.k2Pagination  ul li.num span.pagenav
+{
+	color: #626262;
+}
+
+#filter a.active
+{
+	color: #fff !important;
+}
+
+#filter a
+{
+	background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #BBBBBB;
+    color: #888888 !important;
+}
+
+
+table.calendar tr td.calendarToday
+{
+	background: #1E3253;
+	color:#fff;
+}
+
+#footer a:hover
+{
+	color: #ccc;
+}
